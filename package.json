@@ -1,0 +1,31 @@
+{
+  "name": "nugetinfo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikalai-kardash/nugetinfo.git"
+  },
+  "keywords": [
+    "nuget"
+  ],
+  "author": "Mikalai Kardash",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mikalai-kardash/nugetinfo/issues"
+  },
+  "homepage": "https://github.com/mikalai-kardash/nugetinfo#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-tslint": "^7.1.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  }
+}
