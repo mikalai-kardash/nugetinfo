@@ -1,8 +1,9 @@
 {
   "name": "nugetinfo",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "blah blah blah",
+  "main": "lib/index",
+  "typings": "lib/index",
   "directories": {
     "test": "test"
   },
@@ -27,5 +28,10 @@
     "gulp-tslint": "^7.1.0",
     "tslint": "^5.0.0",
     "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.12",
+    "@types/semver": "^5.3.31",
+    "semver": "^5.3.0"
   }
 }

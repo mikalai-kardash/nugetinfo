@@ -9,11 +9,9 @@ function check() {
     };
 
     return gulp
-        .src(config.main)
+        .src(config.allts)
         .pipe(tslint(options))
         .pipe(tslint.report());
 }
-
-
 
 exports.check = check;
